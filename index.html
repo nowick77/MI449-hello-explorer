@@ -1,19 +1,35 @@
+<!-- 
+Generate one short paragraph about the earth, and then one short paragraph about the moon. They should be similar in length. They should be scientific but without too many statistics which might make the reader uncomfortable. These paragraphs will be used for an informative, introductory website about the earth and moon
+ 
+Earth is our home planet, a dynamic world characterized by its unique ability to support life. Its surface is covered by vast oceans, diverse landmasses, and a protective atmosphere rich in nitrogen and oxygen. The planet's internal heat drives geological processes like plate tectonics, creating mountains, earthquakes, and volcanic activity that continuously reshape the landscape. Earth's magnetic field shields it from harmful solar radiation, while its moderate distance from the Sun provides the ideal temperature range for liquid water to exist on its surface.
+The Moon is Earth's only natural satellite and our closest celestial neighbor. Its gray, cratered surface tells the story of billions of years of asteroid and meteor impacts, frozen in time due to the absence of atmosphere and geological activity. The Moon's gravitational pull creates our ocean tides and has gradually slowed Earth's rotation over time. Despite appearing bright in our night sky, the Moon produces no light of its own—it simply reflects sunlight. Its phases, caused by the changing angles between the Sun, Earth, and Moon, have guided human timekeeping and navigation throughout history. 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Terra & Luna</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <section class="text-container">
+      <h1>
+        Earth
+      </h1>
+      <p>
+        Earth is our home planet, a dynamic world characterized by its unique ability to support life. Its surface is covered by vast oceans, diverse landmasses, and a protective atmosphere rich in nitrogen and oxygen. The planet's internal heat drives geological processes like plate tectonics, creating mountains, earthquakes, and volcanic activity that continuously reshape the landscape. Earth's magnetic field shields it from harmful solar radiation, while its moderate distance from the Sun provides the ideal temperature range for liquid water to exist on its surface.      
+      </p>
+      <nav class="planet-container">
+        <a href="/index" class="earth-container active">
+          <img src="./images/earth.png" class="earth"/>
+        </a>
+        <a href="/moon" class="moon-container">
+          <img src="./images/moon.png" class="moon"/>
+        </a>
+      </nav>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>

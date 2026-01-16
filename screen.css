@@ -1,4 +1,84 @@
 /* Add screen styles below */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* 
+Background: #555253
+Text: #EFF1F3
+Accent: #0197f6
+*/
+
 a.active {
     font-weight: bold;
+}
+
+body {
+    background-color: #1f1e1e;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.text-container {
+    color: #EFF1F3;
+    width: 50%;
+}
+
+.earth-container {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #EFF1F3;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.earth-container.active {
+    border: 7px solid #EFF1F3;
+}
+
+.earth {
+    min-width: 130%;
+    min-height: 130%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.moon-container {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #EFF1F3;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.moon-container.active {
+    border: 7px solid #EFF1F3;
+}
+
+.moon {
+    min-width: 120%;
+    min-height: 120%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.planet-container {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
 }
