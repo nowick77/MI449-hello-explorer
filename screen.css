@@ -1,12 +1,7 @@
 /* Add screen styles below */
 
+/*Could not remember how to do fonts so I asked AI how to add fonts through css, this was the response */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-/* 
-Background: #555253
-Text: #EFF1F3
-Accent: #0197f6
-*/
 
 a.active {
     font-weight: bold;
